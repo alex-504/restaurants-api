@@ -23,6 +23,8 @@ gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'pundit'
+# store a session in a token
+gem 'simple_token_authentication'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

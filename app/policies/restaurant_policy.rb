@@ -8,5 +8,10 @@ class RestaurantPolicy < ApplicationPolicy
   def show?
     true
   end
+
+  def update?
+    record_user == user
+  end
+  
   
 end
