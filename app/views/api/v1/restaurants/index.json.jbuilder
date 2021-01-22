@@ -1,5 +1,5 @@
 json.array! @restaurants do |restaurant|
-  json.extract! restaurant, :id, :name
+  json.extract! restaurant, :id, :name, :address
   # json.extract! restaurant.user, :email
   # # create arrays of comments (hash of arrays)
   # json.array! restaurant.comments do |comments|
