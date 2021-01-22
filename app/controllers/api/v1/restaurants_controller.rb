@@ -1,8 +1,5 @@
-class Api::V1::RestaurantsController < ApplicationController
-
+class Api::V1::RestaurantsController < Api::V1::BaseController
   def index
-    # @restaurants = Restaurant.all
-    @restaurants = policy_scope(Restaurant) 
+    @restaurants = policy_scope(Restaurant)
   end
-  
 end
